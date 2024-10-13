@@ -1,0 +1,8 @@
+<form method="post">
+    <H>Do you went to delete this product ?</H>
+    {% csrf_token %}
+
+    <button type="submit">YES</button>
+
+</form>
+    <button><a href="{% url 'product_list' %}"></a></button>
